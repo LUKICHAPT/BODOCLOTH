@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BODO CLOTHES</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="logo">BODO <span>CLOTHES</span></div>
+  <div class="icons">
+    <button id="cartBtn">🛒 <span id="cartCount">0</span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1 class="glitch">HIGH FASHION STREETWEAR</h1>
+  <p>Dark • Loud • Animated</p>
+</section>
+
+<section class="products" id="products"></section>
+
+<div class="cart" id="cart">
+  <h2>Your Cart</h2>
+  <div id="cartItems"></div>
+  <div class="total">Total: <span id="total">0</span> ₾</div>
+  <button onclick="toggleCart()">Close</button>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
